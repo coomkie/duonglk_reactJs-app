@@ -1,0 +1,12 @@
+
+.main-flex{
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-navbar{
+    flex: 20%;
+}
+.flex-item{
+    flex: 80%;
+}
