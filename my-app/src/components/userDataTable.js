@@ -7,7 +7,6 @@ import TableContainer from '@mui/material/TableContainer';
 import TableHead from '@mui/material/TableHead';
 import TableRow from '@mui/material/TableRow';
 import Paper from '@mui/material/Paper';
-import CreateUserModalPage from './createUserModalPage';
 
 const StyledTableCell = styled(TableCell)(({ theme }) => ({
     [`&.${tableCellClasses.head}`]: {
@@ -33,7 +32,6 @@ const StyledTableRow = styled(TableRow)(({ theme }) => ({
 export default function UserDataTable({ cols, users }) {
     return (
         <div style={{ width: '90%', margin: '20px auto' }}>
-            <CreateUserModalPage/>
             <TableContainer component={Paper}>
                 <Table sx={{ minWidth: 700 }} aria-label="customized table">
                     <TableHead>

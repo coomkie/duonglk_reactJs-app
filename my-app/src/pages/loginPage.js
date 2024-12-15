@@ -28,7 +28,7 @@ const LoginPage = () => {
             <div class="wrap-login100 p-l-110 p-r-110 p-t-62 p-b-33">
                 <form class="login100-form validate-form flex-sb flex-w" onSubmit={handleLogin}>
                     <span class="login100-form-title p-b-53">
-                        Account Login
+                        Account Login(acount: admin; pass: admin)
                     </span>
                     <div class="name-form p-t-31 p-b-9">
                         <span class="txt1">

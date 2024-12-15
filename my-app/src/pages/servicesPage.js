@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 import UserDataTable from '../components/userDataTable';
-import CreateUserModalPage from '../components/createUserModalPage';
 const Service = () => {
   return (
     <div>
